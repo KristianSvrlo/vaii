@@ -54,4 +54,16 @@ class HomeController extends BaseController
     {
         return $this->html();
     }
+
+    /**
+     * Displays the garage page.
+     * 
+     * This action serves the HTML view for the garage page, which is accessible to all users without any authorization
+     * 
+     * @return Response The response object containing the rendered HTML for the garage page.
+     */
+    public function garage(Request $request): Response
+    {
+        return $this->html();
+    }
 }
