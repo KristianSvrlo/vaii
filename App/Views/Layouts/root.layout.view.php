@@ -24,7 +24,7 @@
     <nav>
       <a href="<?= $link->url('home.index.html') ?>">Domov / Novinky</a>
       <a href="#">Podujatia</a>
-      <a href="<?= $link->url('home.garage.html') ?>">Garáž</a>
+      <a href="<?= $link->url('car.index') ?>">Garáž</a>
       <a href="#">Kluby</a>
       <a href="#">Nastavenia</a>
     </nav>

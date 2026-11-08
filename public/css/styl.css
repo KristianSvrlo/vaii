@@ -129,3 +129,17 @@ footer {
   .photo { width: 100%; }
   .page-head { flex-direction: column; align-items: flex-start; gap: .5rem; }
 }
+
+/* ---------- formulár auta ---------- */
+.car-form {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  max-width: 500px;
+}
+.car-form label { font-weight: bold; margin-top: .5rem; }
+.car-form input, .car-form textarea { padding: .5rem; font: inherit; }
+.car-form .car-buttons { margin-top: 1rem; }
+.form-error { padding: .6rem; background: #ffe0e0; border: 1px solid #c66; max-width: 500px; }
+.car-buttons form { margin: 0; }
+a.empty-slot { text-decoration: none; }
